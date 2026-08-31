@@ -1,0 +1,22 @@
+# Python 3.10+ (developed on 3.14)
+#
+# torch and torch-geometric must match each other and your platform. Install
+# torch FIRST from https://pytorch.org (pick your OS / CUDA / CPU build), then
+# the rest of this file. Installing torch-geometric before torch, or mixing
+# CUDA and CPU builds, is the usual cause of import errors.
+
+torch>=2.2
+torch-geometric>=2.5
+
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.11
+
+matplotlib>=3.7
+seaborn>=0.13
+networkx>=3.0
+
+# To run the notebooks
+jupyter>=1.0
+nbconvert>=7.0
